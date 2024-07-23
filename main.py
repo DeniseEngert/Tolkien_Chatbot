@@ -14,7 +14,7 @@ def save_knowledge(filepath: str, data: dict):
 
 
 def find_best_match(userQuestion: str, question: list[str]) -> str | None:
-    matches: list = get_close_matches(userQuestion, question, n=1, cutoff=0.6)
+    matches: list = get_close_matches(userQuestion, question, n=1, cutoff=0.8)
     return matches[0] if matches else None
 
 

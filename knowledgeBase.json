@@ -5,8 +5,16 @@
       "answer": "Hey there!"
     },
     {
-      "question": "capital of france",
-      "answer": "Paris"
+      "question": "Who is Frodo Baggins?",
+      "answer": "He is a Hobbit who carried THE RING from the Shire to Mount Doom and destroyed it there."
+    },
+    {
+      "question": "Is Frodo Baggins the nephew of Bilbo Baggins?",
+      "answer": "Yes."
+    },
+    {
+      "question": "who is the nephew of bilbo baggins?",
+      "answer": "Frodo Baggins."
     }
   ]
 }
