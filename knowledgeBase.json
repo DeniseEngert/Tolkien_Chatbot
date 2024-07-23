@@ -1,0 +1,12 @@
+{
+  "questions": [
+    {
+      "question": "Hello!",
+      "answer": "Hey there!"
+    },
+    {
+      "question": "capital of france",
+      "answer": "Paris"
+    }
+  ]
+}
