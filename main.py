@@ -27,7 +27,7 @@ def get_answer(question: str, knowledgeBase: dict) -> str | None:
 def chat_bot():
     knowledge_base: dict = load_knowledge_base("knowledgeBase.json")
 
-    file = open('resources/banner.txt', 'r')
+    file = open('resources/banner_big.txt', 'r')
     banner = file.read()
     print(banner)
     print("Note: write 'quit' to close chatbot")
