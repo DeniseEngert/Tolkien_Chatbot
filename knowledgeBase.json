@@ -9,16 +9,28 @@
       "answer": "He is a Hobbit who carried THE RING from the Shire to Mount Doom and destroyed it there."
     },
     {
-      "question": "Is Frodo Baggins the nephew of Bilbo Baggins?",
-      "answer": "Yes."
-    },
-    {
       "question": "who is the nephew of bilbo baggins?",
       "answer": "Frodo Baggins."
     },
     {
-      "question": "Who Is Frodo Baggins' best friend?",
-      "answer": "Samwise Gamgee. Short: Sam"
+      "question": "nephew of bilbo baggins",
+      "answer": "Frodo Baggins"
+    },
+    {
+      "question": "is frodo the nephew of bilbo",
+      "answer": "yes"
+    },
+    {
+      "question": "Frodo's best friend",
+      "answer": "Samwise Gamgee."
+    },
+    {
+      "question": "Who is Frodo Baggins' best friend",
+      "answer": "Samwise Gamgee."
+    },
+    {
+      "question": "Hello there!",
+      "answer": "Hello right back at you!"
     }
   ]
 }

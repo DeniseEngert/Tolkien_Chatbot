@@ -14,7 +14,7 @@ def save_knowledge(filepath: str, data: dict):
 
 
 def find_best_match(userQuestion: str, question: list[str]) -> str | None:
-    matches: list = get_close_matches(userQuestion, question, n=1, cutoff=0.8)
+    matches: list = get_close_matches(userQuestion, question, n=2, cutoff=0.8)
     return matches[0] if matches else None
 
 
@@ -26,6 +26,12 @@ def get_answer(question: str, knowledgeBase: dict) -> str | None:
 
 def chat_bot():
     knowledge_base: dict = load_knowledge_base("knowledgeBase.json")
+
+    file = open('resources/banner.txt', 'r')
+    banner = file.read()
+    print(banner)
+    print("Note: write 'quit' to close chatbot")
+    print()
 
     while True:
         user_input: str = input("You: ")
