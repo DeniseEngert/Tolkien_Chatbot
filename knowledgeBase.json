@@ -31,6 +31,10 @@
     {
       "question": "Hello there!",
       "answer": "Hello right back at you!"
+    },
+    {
+      "question": "Who is Sam Gamgee?",
+      "answer": "A Hobbit from the Shire and Frodo Baggins' best friend."
     }
   ]
 }
