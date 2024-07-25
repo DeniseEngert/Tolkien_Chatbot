@@ -35,6 +35,18 @@
     {
       "question": "Who is Sam Gamgee?",
       "answer": "A Hobbit from the Shire and Frodo Baggins' best friend."
+    },
+    {
+      "question": "Who is Gandalf?",
+      "answer": "A wizard, also called Istar. He watches over Middle-Earth. (And is a troublemaker.)"
+    },
+    {
+      "question": "Where do Hobbits live?",
+      "answer": "In the shire."
+    },
+    {
+      "question": "What is Bag End?",
+      "answer": "Bag End is the dwelling of Bilbo Baggins (and later of Frodo Baggins, too). One can find it in Hobbiton, a village in the shire."
     }
   ]
 }
