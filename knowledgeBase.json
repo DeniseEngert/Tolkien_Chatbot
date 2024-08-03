@@ -45,8 +45,16 @@
       "answer": "In the shire."
     },
     {
-      "question": "What is Bag End?",
-      "answer": "Bag End is the dwelling of Bilbo Baggins (and later of Frodo Baggins, too). One can find it in Hobbiton, a village in the shire."
+      "question": "Who is Elrond?",
+      "answer": "Elrond is the Elven-Lord living in Rivendell."
+    },
+    {
+      "question": "Who is Arwen?",
+      "answer": "Arwen is the daughter of Elrond."
+    },
+    {
+      "question": "Who is Aragorn?",
+      "answer": "Aragorn is the heir of Isildur, he is a member of the Fellowship Of The Ring and the future king of Gondor."
     }
   ]
 }

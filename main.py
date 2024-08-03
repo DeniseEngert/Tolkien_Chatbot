@@ -26,6 +26,7 @@ def get_answer(question: str, knowledgeBase: dict) -> str | None:
 
 def chat_bot():
     knowledge_base: dict = load_knowledge_base("knowledgeBase.json")
+    approve: dict = load_knowledge_base("approve.json")
 
     file = open('resources/banner_big.txt', 'r')
     banner = file.read()
@@ -46,8 +47,8 @@ def chat_bot():
             print("Bot: I don't know the answer, can you teach me?")
             new_answer: str = input("You: Type the answer or 'skip' to skip. ")
             if new_answer.lower() != "skip":
-                knowledge_base["questions"].append({"question": user_input, "answer": new_answer})
-                save_knowledge("knowledgeBase.json", knowledge_base)
+                approve["questions"].append({"question": user_input, "answer": new_answer})
+                save_knowledge("approve.json", approve)
                 print("Bot: Thank you, I learned a new response.")
 
 
