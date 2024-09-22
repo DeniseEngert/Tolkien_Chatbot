@@ -55,6 +55,14 @@
     {
       "question": "Who is Aragorn?",
       "answer": "Aragorn is the heir of Isildur, he is a member of the Fellowship Of The Ring and the future king of Gondor."
+    },
+    {
+      "question": "Who is Goldberry?",
+      "answer": "She is the daughter of the river and Tom Bombadil's wife."
+    },
+    {
+      "question": "What is the name of Galadriel's ring?",
+      "answer": "Nenya"
     }
   ]
 }

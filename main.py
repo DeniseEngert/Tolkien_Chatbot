@@ -49,7 +49,7 @@ def chat_bot():
             if new_answer.lower() != "skip":
                 approve["questions"].append({"question": user_input, "answer": new_answer})
                 save_knowledge("approve.json", approve)
-                print("Bot: Thank you, I learned a new response.")
+                print("Bot: Thank you, I learned a new response. Your input will be approved soon.")
 
 
 if __name__ == '__main__':
